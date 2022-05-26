@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(circle at center, lightblue, darkgray);
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px auto 40px auto;
+  }
+  .logo {
+    width: 360px;
+  }
+  
+  .left-btn {
+    width: 50px;
+  }
+  
+  .right-btn {
+    width: 50px;
+    transform: scale(-1, 1);
+  }
+  
+  #anyPokemon {
+    background-color: radial-gradient(circle at center, lightblue, darkgray);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin: auto;
+  }
+  .poke {
+      height: 240px;
+      width: 240px;
+  }
